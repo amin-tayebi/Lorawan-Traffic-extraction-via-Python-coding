@@ -7,3 +7,5 @@ Finaly separate the payload which is located after ":" and export all of them in
 # It can be used also in Lorawan Traffic extraction.
 
 By analysing Lorawan traffic, main payload of the whole packets (which has been sent by sensors e.g. Humidity) extracted from the LOG file of the Gateway sepatated and decoded using a python script.
+
+# shell files are including a java based lorawan_parser to decode the payload of specific sensor (LSE01 soil moixture).
